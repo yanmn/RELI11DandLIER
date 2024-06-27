@@ -1,5 +1,5 @@
 # RELI11D: A Comprehensive Multimodal Human Motion Dataset and Method [CVPR-2024]
-[![report](https://img.shields.io/badge/arxiv-report-blue)](https://arxiv.org/abs/2403.19501) 
+[![report](https://img.shields.io/badge/arxiv-report-blue)](https://openaccess.thecvf.com/content/CVPR2024/papers/Yan_RELI11D_A_Comprehensive_Multimodal_Human_Motion_Dataset_and_Method_CVPR_2024_paper.pdf) 
 [![report](https://img.shields.io/badge/project-page-green)](http://www.lidarhumanmotion.net/reli11d/) 
 
 <p float="center">
