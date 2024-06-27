@@ -31,6 +31,8 @@ padding: -2px;">
 
 Our proposed **RELI11D** is a high-quality multimodal human motion dataset involves **L**iDAR, **I**MU system, **R**GB camera, and **E**vent camera, which records the motions of 10 actors performing 5 sports in 7 scenes, including 3.32 hours of synchronized LiDAR point clouds, IMU measurement data, RGB videos and Event steams.
 
+In order to effectively integrate the data of each modality and use it for global human pose estimation, we propose a Baseline, **LEIR**. First, input data from different modalities. Next, we use the feature extractor corresponding to different modalities to obtain features. The modal features enter the Temporal Unified Multimodal Model, and we propose the MMCA Unit to fuse the features. Finally, in the SMPL-Based Inverse Kinematics Solver, we design a variety of Loss to constrain data of different dimensions and finally predict the global human poses. 
+
 ## Preparation
 - Download `basicModel_neutral_lbs_10_207_0_v1.0.0.pkl` and modify `model_file` in `conf/config.yaml`.
 - Download our dataset and modify `RELI_DIR` in `conf/model_file.py`.
