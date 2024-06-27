@@ -1,0 +1,9 @@
+model_file: '.../smpl/basicModel_neutral_lbs_10_207_0_v1.0.0.pkl' 
+# smpl model file
+train_bs: 6
+val_bs: 6
+eval_bs: 6
+threads: 4
+lr: 0.0001
+epochs: 200
+gpu: 2
